@@ -10,7 +10,7 @@ import random
 import bs4
 from bs4 import BeautifulSoup as bs
 from PIL import Image, ImageFont, ImageDraw
-import urllib3.request
+#import urllib3.request
 
 with st.echo(code_location='below'):
 
@@ -100,7 +100,7 @@ with st.echo(code_location='below'):
         a = random.randint(1, len(photos)-1)
         print(a)
 
-        urllib3.request.urlretrieve(
+        urllib.request.urlretrieve(
             photos[a],
             "skys.jpg")
 
