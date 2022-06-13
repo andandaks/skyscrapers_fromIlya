@@ -1,5 +1,6 @@
 import telebot
 import random
+import streamlit
 from PIL import Image, ImageDraw
 import requests
 from bs4 import BeautifulSoup as bs
@@ -9,6 +10,7 @@ headers = {
     "X-Amzn-Trace-Id": "Root=1-614b72cf-3af194f55b95c13d138986c5"
 }
 
+st.write('Бот должен работать')
 
 bot = telebot.Telebot('5305839756:AAGcAim61mtdQSTKooxKfFZG9TNjtJ-xmAw')
 
