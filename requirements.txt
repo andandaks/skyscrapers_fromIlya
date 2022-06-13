@@ -9,4 +9,3 @@ requests
 random
 bs4
 PIL
-urllib
