@@ -4,10 +4,9 @@ streamlit
 matplotlib
 geopandas
 pandas
-matplotlib.pyplot
-sklearn.linear_model
+sklearn
 requests
 random
 bs4
 PIL
-urllib.request
+urllib
