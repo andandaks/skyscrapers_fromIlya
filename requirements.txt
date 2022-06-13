@@ -1,2 +1,14 @@
 seaborn
 altair
+streamlit
+numpy
+matplotlib
+geopandas
+pandas
+matplotlib.pyplot
+sklearn.linear_model
+requests
+random
+bs4
+PIL
+urllib.request
