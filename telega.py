@@ -1,9 +1,7 @@
 import telebot
-import settings
 import random
 from PIL import Image, ImageDraw
 import requests
-import urllib.request
 from bs4 import BeautifulSoup as bs
 
 headers = {
