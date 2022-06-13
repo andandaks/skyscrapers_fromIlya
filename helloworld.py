@@ -111,7 +111,10 @@ with st.echo(code_location='below'):
         image_editable = ImageDraw.Draw(img)
         res = image_editable.text((15, 15), title_text, size = 10, fill = (255, 0, 0))
         st.image(img)
-
+        
+        st.info('\*****')
+        st.warning('\*******!')
+        
         st.write('Помогу загрейдить эту работу: ')
         st.write('**Обработка данных с помощью pandas. 1-2** '
                  'Так как для анализа данных использовались три разных базы данных, '
@@ -143,7 +146,6 @@ with st.echo(code_location='below'):
         st.write('**Общее впечатление**'
                  ' Вы видели шарики? Очень жестко')
 
-        st.info('\*****')
-        st.warning('\*******!')
+
         st.subheader('Код ниже. Обнял')
     go()
