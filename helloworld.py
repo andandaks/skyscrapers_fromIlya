@@ -87,7 +87,7 @@ with st.echo(code_location='below'):
 
 
         r = requests.get('https://www.dreamstime.com/photos-images/skyscraper.html', headers = headers)
-        soup = bs(r.content, features="lxml")
+        soup = bs(r.content)
         imgs = soup.find_all('img')
         photos = []
         for i in imgs:
