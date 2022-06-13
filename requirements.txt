@@ -1,7 +1,6 @@
 seaborn
 altair
 streamlit
-numpy
 matplotlib
 geopandas
 pandas
