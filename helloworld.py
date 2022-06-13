@@ -100,7 +100,7 @@ with st.echo(code_location='below'):
         a = random.randint(1, len(photos)-1)
         print(a)
 
-        urllib.request.urlretrieve(
+        urllib3.request.urlretrieve(
             photos[a],
             "skys.jpg")
 
