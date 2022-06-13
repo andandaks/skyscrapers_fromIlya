@@ -4,4 +4,4 @@ geopandas
 sklearn
 requests
 bs4
-urllib
+urllib3
