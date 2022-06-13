@@ -10,7 +10,7 @@ import random
 import bs4
 from bs4 import BeautifulSoup as bs
 from PIL import Image, ImageFont, ImageDraw
-import urllib.request
+import urllib3.request
 
 with st.echo(code_location='below'):
 
