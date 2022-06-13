@@ -1,11 +1,9 @@
-seaborn
-altair
 streamlit
 matplotlib
 geopandas
-pandas
 sklearn
 requests
 random
 bs4
 PIL
+urllib
